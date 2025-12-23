@@ -1,0 +1,30 @@
+{
+  "name": "supermaker/ai-video-downloader",
+  "description": "Generate SuperMaker AI Video Downloader backlinks (links + HTML anchors) pointing to https://supermaker.ai/video/.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SuperMaker\\AiVideoDownloader\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "SuperMaker.ai"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "scripts": {
+    "test": "php tests/BacklinksTest.php"
+  },
+  "keywords": [
+    "supermaker",
+    "ai-video",
+    "video-downloader",
+    "backlinks",
+    "seo",
+    "utm"
+  ]
+}
